@@ -79,7 +79,7 @@ export function Footer() {
               
               <li>
                 <a
-                  href="https://wa.me/97332355997?text=Hi"
+                  href="https://wa.me/97337915515?text=Hi"
                   className="text-white/50 hover:text-white transition-colors flex items-center gap-1 group"
                 >
                 <MessageCircle className="w-4 h-4 mr-1 inline-block" />  WhatsApp
@@ -99,8 +99,8 @@ export function Footer() {
               </li>
 
               <li className="text-white/50">
-              <a href="tel:+97332355997" className="hover:text-white transition-colors flex items-center gap-1 group">
-               <Phone className="w-4 h-4 mr-1 inline-block" /> +973 32355997
+              <a href="tel:+97337915515" className="hover:text-white transition-colors flex items-center gap-1 group">
+               <Phone className="w-4 h-4 mr-1 inline-block" /> +973 37915515
                <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
                </a>
               </li>

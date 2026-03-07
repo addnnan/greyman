@@ -41,21 +41,16 @@ export function About() {
             className="space-y-6 text-white/70 leading-relaxed text-lg"
           >
             <p>
-              GreyMan is a Bahrain-based business management consultancy
-              dedicated to helping entrepreneurs, investors, and organizations
-              establish and scale their operations with confidence.
+              Grey Man is your Bahrain-based business agency. Whether starting from scratch or scaling up, we provide solutions to streamline operations and elevate your business
             </p>
 
             <p>
-              We specialize in company formation, regulatory compliance,
-              accounting support, and strategic advisory services tailored
-              to the evolving business landscape of the Kingdom of Bahrain.
+            We offer Business Consultancy & Regulatory Services, guiding you through compliance, PRO services, and growth strategies. Our Construction & Contracting division delivers civil works, electro-mechanical projects, interior fit-outs, scaffolding, landscaping, and facility solutions with exceptional quality, timelines, and standards.
+
             </p>
 
             <p>
-              Our approach combines structured planning with practical execution —
-              ensuring every business decision is aligned with long-term growth
-              and operational efficiency.
+            At Grey Man, excellence is our benchmark. Through integrity, innovation, and uncompromising performance, we build lasting partnerships and set the standard for business and contracting success in Bahrain.
             </p>
           </motion.div>
 

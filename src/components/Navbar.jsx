@@ -63,7 +63,7 @@ export function Navbar() {
 
             {/* CTA Button */}
             <a
-              href="https://wa.me/97332355997?text=Hi"
+              href="https://wa.me/97337915515?text=Hi"
               className="border border-white px-5 py-2 text-xs tracking-[0.3em] uppercase text-white hover:bg-white hover:text-black transition-all duration-300"
             >
              <MessageCircle className="w-4 h-4 mr-2 inline-block" /> Whatsapp
@@ -122,7 +122,7 @@ export function Navbar() {
 
                 {/* Mobile CTA */}
                 <a
-                  href="https://wa.me/97332355997?text=Hi"
+                  href="https://wa.me/97337915515?text=Hi"
                   onClick={() => setMobileMenuOpen(false)}
                   className="mt-6 border border-white px-6 py-3 text-xs tracking-[0.3em] uppercase text-white hover:bg-white hover:text-black transition-all duration-300"
                 >

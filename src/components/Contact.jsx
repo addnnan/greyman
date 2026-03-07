@@ -88,7 +88,7 @@ export function Contact() {
             <h4 className="text-xs uppercase tracking-widest text-white/40 mb-2">
               Phone
             </h4>
-            <p className="text-xl text-white">+973 32355997</p>
+            <p className="text-xl text-white">+973 37915515</p>
           </div>
         </div>
       </motion.div>
