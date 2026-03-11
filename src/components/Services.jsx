@@ -1,36 +1,53 @@
 import { motion } from "framer-motion";
 
+
 export function Services() {
   const services = [
     {
+      id: 1,
+      image: "/contracting.webp",
       title: "Contracting",
       desc: "Structured execution and project coordination",
     },
     {
+      id: 2,
+      image: "/consultancy.webp",
       title: "Business Consultancy",
       desc: "Strategic advisory and structured planning to establish and scale businesses in Bahrain.",
     },
     {
+      id: 3,
+      image: "/PRO-1.webp",
       title: "PRO Services",
       desc: "Government liaison and documentation support ensuring regulatory compliance.",
     },
     {
+      id: 4,
+      image: "/financial-service.webp",
       title: "Financial Services",
       desc: "Accounting, bookkeeping, VAT registration, and financial advisory solutions.",
     },
     {
+      id: 5,
+      image: "/HR.webp",
       title: "HR Consultancy",
       desc: "Workforce planning, recruitment advisory, and HR policy structuring.",
     },
     {
+      id: 6,
+      image: "/document-clr.webp",
       title: "Document Clearance",
       desc: "Efficient processing of legal and corporate documentation.",
     },
     {
+      id: 7,
+      image: "/visa-service.webp",
       title: "Visa Services",
       desc: "Investor, employment, and residency visa assistance.",
     },
     {
+      id: 8,
+      image: "/tour-travel.webp",
       title: "Travel & Tourism",
       desc: "Corporate travel solutions and tourism advisory services.",
     },
@@ -67,13 +84,27 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="border border-white/10 p-8 hover:border-white/30 transition-all duration-300"
+              className="relative border border-white/10 p-8  hover:border-white/30 transition-all duration-300"
             >
+              {/* Background Image */}
+
+
+              <img
+                src={service.image}
+                className="z-0 absolute inset-0 w-full h-full object-cover opacity-25 group-hover:scale-105 transition-transform duration-500 "
+                alt=""
+              />
+
+              {/* Dark Overlay */}
+              <div className="z-2 absolute inset-0 bg-black/20"></div>
+
+
+              <h1 className=" z-20 text-2xl font-bold mb-4 text-white/20 ">({service.id})</h1>
               
-              <h3 className="text-lg font-medium mb-4 font-semibold">
+              <h3 className=" z-20 text-2xl  font-medium mb-4 font-semibold text-white ">
                 {service.title}
               </h3>
-              <p className="text-white/60 text-sm leading-relaxed">
+              <p className=" z-20 text-white/70 text-sm leading-relaxed font-semibold">
                 {service.desc}
               </p>
             </motion.div>
