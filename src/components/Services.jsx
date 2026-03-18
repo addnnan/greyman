@@ -94,19 +94,19 @@ export function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="relative border border-white/10 p-8  hover:border-white/30 transition-all duration-300 h-full"
+              className="relative border border-white/10 p-8 bg-black/30 hover:bg-black hover:border-white/30 transition-all duration-300 h-full"
             >
               {/* Background Image */}
 
 
               <img
                 src={service.image}
-                className="z-0 absolute inset-0 w-full h-full object-cover opacity-25 group-hover:scale-105 transition-transform duration-500 "
+                className="z-0 absolute inset-0 w-full h-full object-cover opacity-25  transition-transform duration-500 "
                 alt=""
               />
 
               {/* Dark Overlay */}
-              <div className="z-1 absolute inset-0 bg-black/15"></div>
+              <div className="z-1 absolute inset-0 bg-black/15  transition-colors"></div>
 
 
               <h1 className=" z-20 text-2xl font-bold mb-4 text-white/20 ">({service.id})</h1>
