@@ -30,7 +30,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="text-white/50 hover:text-white transition-colors flex items-center gap-1 group"
                 >
                   About
@@ -40,7 +40,7 @@ export function Footer() {
 
               <li>
                 <a
-                  href="#services"
+                  href="/#services"
                   className="text-white/50 hover:text-white transition-colors flex items-center gap-1 group"
                 >
                   Services
@@ -50,7 +50,7 @@ export function Footer() {
 
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="text-white/50 hover:text-white transition-colors flex items-center gap-1 group"
                 >
                   Contact

@@ -1,52 +1,61 @@
 import { motion } from "framer-motion";
+import {Link} from 'wouter'
 
 
 export function Services() {
   const services = [
     {
       id: 1,
+      url: "contracting",
       image: "/contracting.webp",
       title: "Contracting",
       desc: "Structured execution and project coordination",
     },
     {
       id: 2,
+      url: "consultancy",
       image: "/consultancy.webp",
       title: "Business Consultancy",
       desc: "Strategic advisory and structured planning to establish and scale businesses in Bahrain.",
     },
     {
       id: 3,
+      url: "pro-services",
       image: "/PRO-1.webp",
       title: "PRO Services",
       desc: "Government liaison and documentation support ensuring regulatory compliance.",
     },
     {
       id: 4,
+      url: "financial-services",
       image: "/financial-service.webp",
       title: "Financial Services",
       desc: "Accounting, bookkeeping, VAT registration, and financial advisory solutions.",
     },
     {
       id: 5,
+      url: "hr-consultancy",
       image: "/HR.webp",
       title: "HR Consultancy",
       desc: "Workforce planning, recruitment advisory, and HR policy structuring.",
     },
     {
       id: 6,
+      url: "document-clearance",
       image: "/document-clr.webp",
       title: "Document Clearance",
       desc: "Efficient processing of legal and corporate documentation.",
     },
     {
       id: 7,
+      url: "visa-services",
       image: "/visa-service.webp",
       title: "Visa Services",
       desc: "Investor, employment, and residency visa assistance.",
     },
     {
       id: 8,
+      url: "travel-tourism",
       image: "/tour-travel.webp",
       title: "Travel & Tourism",
       desc: "Corporate travel solutions and tourism advisory services.",
@@ -78,13 +87,14 @@ export function Services() {
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
+            <Link to={`/${service.url}`} key={service.id}>
             <motion.div
               key={service.title}
               initial={{ opacity: 1, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="relative border border-white/10 p-8  hover:border-white/30 transition-all duration-300"
+              className="relative border border-white/10 p-8  hover:border-white/30 transition-all duration-300 h-full"
             >
               {/* Background Image */}
 
@@ -96,7 +106,7 @@ export function Services() {
               />
 
               {/* Dark Overlay */}
-              <div className="z-2 absolute inset-0 bg-black/20"></div>
+              <div className="z-1 absolute inset-0 bg-black/15"></div>
 
 
               <h1 className=" z-20 text-2xl font-bold mb-4 text-white/20 ">({service.id})</h1>
@@ -108,6 +118,7 @@ export function Services() {
                 {service.desc}
               </p>
             </motion.div>
+            </Link>
           ))}
         </div>
       </div>

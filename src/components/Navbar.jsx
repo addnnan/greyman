@@ -23,9 +23,9 @@ export function Navbar() {
   }, [mobileMenuOpen]);
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: "About", href: "/#about" },
+    { name: "Services", href: "/#services" },
+    { name: "Contact", href: "/#contact" },
   ];
 
   return (
