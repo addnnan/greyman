@@ -101,12 +101,12 @@ export function Services() {
 
               <img
                 src={service.image}
-                className="z-0 absolute inset-0 w-full h-full object-cover opacity-25  transition-transform duration-500 "
+                className="z-0 absolute inset-0 w-full h-full object-cover opacity-20  transition-transform duration-500 "
                 alt=""
               />
 
               {/* Dark Overlay */}
-              <div className="z-1 absolute inset-0 bg-black/15  transition-colors"></div>
+             
 
 
               <h1 className=" z-20 text-2xl font-bold mb-4 text-white/20 ">({service.id})</h1>
