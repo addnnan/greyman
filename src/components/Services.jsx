@@ -101,7 +101,7 @@ export function Services() {
 
               <img
                 src={service.image}
-                className="z-0 absolute inset-0 w-full h-full object-cover opacity-20  transition-transform duration-500 "
+                className="z-0 absolute inset-0 w-full h-full object-cover opacity-30  transition-transform duration-500 "
                 alt=""
               />
 
